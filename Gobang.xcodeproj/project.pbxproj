@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E16D59419ACD6AE00149B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E16D59319ACD6AE00149B25 /* Foundation.framework */; };
+		3E16D59619ACD6AE00149B25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E16D59519ACD6AE00149B25 /* CoreGraphics.framework */; };
+		3E16D59819ACD6AE00149B25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E16D59719ACD6AE00149B25 /* UIKit.framework */; };
+		3E16D59E19ACD6AE00149B25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E16D59C19ACD6AE00149B25 /* InfoPlist.strings */; };
+		3E16D5A019ACD6AE00149B25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E16D59F19ACD6AE00149B25 /* main.m */; };
+		3E16D5A419ACD6AE00149B25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E16D5A319ACD6AE00149B25 /* AppDelegate.m */; };
+		3E16D5A619ACD6AE00149B25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E16D5A519ACD6AE00149B25 /* Images.xcassets */; };
+		3E16D5AD19ACD6AE00149B25 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E16D5AC19ACD6AE00149B25 /* XCTest.framework */; };
+		3E16D5AE19ACD6AE00149B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E16D59319ACD6AE00149B25 /* Foundation.framework */; };
+		3E16D5AF19ACD6AE00149B25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E16D59719ACD6AE00149B25 /* UIKit.framework */; };
+		3E16D5B719ACD6AE00149B25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E16D5B519ACD6AE00149B25 /* InfoPlist.strings */; };
+		3E16D5B919ACD6AE00149B25 /* GobangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E16D5B819ACD6AE00149B25 /* GobangTests.m */; };
+		3E16D5C419ACD6EF00149B25 /* VCRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E16D5C319ACD6EF00149B25 /* VCRoot.m */; };
+		BC20FADC19AD628A00AF5825 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC20FADB19AD628A00AF5825 /* background.jpg */; };
+		BC20FB4819AD881100AF5825 /* FiveChessFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20FB4719AD881100AF5825 /* FiveChessFrameView.m */; };
+		BC20FB4D19ADAAD600AF5825 /* ChessPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = BC20FB4C19ADAAD600AF5825 /* ChessPiece.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E16D5B019ACD6AE00149B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E16D58819ACD6AE00149B25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E16D58F19ACD6AE00149B25;
+			remoteInfo = Gobang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E16D59019ACD6AE00149B25 /* Gobang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gobang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E16D59319ACD6AE00149B25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E16D59519ACD6AE00149B25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E16D59719ACD6AE00149B25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E16D59B19ACD6AE00149B25 /* Gobang-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gobang-Info.plist"; sourceTree = "<group>"; };
+		3E16D59D19ACD6AE00149B25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E16D59F19ACD6AE00149B25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E16D5A119ACD6AE00149B25 /* Gobang-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gobang-Prefix.pch"; sourceTree = "<group>"; };
+		3E16D5A219ACD6AE00149B25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E16D5A319ACD6AE00149B25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E16D5A519ACD6AE00149B25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E16D5AB19ACD6AE00149B25 /* GobangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GobangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E16D5AC19ACD6AE00149B25 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3E16D5B419ACD6AE00149B25 /* GobangTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GobangTests-Info.plist"; sourceTree = "<group>"; };
+		3E16D5B619ACD6AE00149B25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E16D5B819ACD6AE00149B25 /* GobangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GobangTests.m; sourceTree = "<group>"; };
+		3E16D5C219ACD6EF00149B25 /* VCRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRoot.h; sourceTree = "<group>"; };
+		3E16D5C319ACD6EF00149B25 /* VCRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRoot.m; sourceTree = "<group>"; };
+		BC20FADB19AD628A00AF5825 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		BC20FB4619AD881100AF5825 /* FiveChessFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveChessFrameView.h; sourceTree = "<group>"; };
+		BC20FB4719AD881100AF5825 /* FiveChessFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveChessFrameView.m; sourceTree = "<group>"; };
+		BC20FB4B19ADAAD600AF5825 /* ChessPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessPiece.h; sourceTree = "<group>"; };
+		BC20FB4C19ADAAD600AF5825 /* ChessPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessPiece.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E16D58D19ACD6AE00149B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E16D59619ACD6AE00149B25 /* CoreGraphics.framework in Frameworks */,
+				3E16D59819ACD6AE00149B25 /* UIKit.framework in Frameworks */,
+				3E16D59419ACD6AE00149B25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E16D5A819ACD6AE00149B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E16D5AD19ACD6AE00149B25 /* XCTest.framework in Frameworks */,
+				3E16D5AF19ACD6AE00149B25 /* UIKit.framework in Frameworks */,
+				3E16D5AE19ACD6AE00149B25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E16D58719ACD6AE00149B25 = {
+			isa = PBXGroup;
+			children = (
+				BC20FADB19AD628A00AF5825 /* background.jpg */,
+				3E16D59919ACD6AE00149B25 /* Gobang */,
+				3E16D5B219ACD6AE00149B25 /* GobangTests */,
+				3E16D59219ACD6AE00149B25 /* Frameworks */,
+				3E16D59119ACD6AE00149B25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E16D59119ACD6AE00149B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E16D59019ACD6AE00149B25 /* Gobang.app */,
+				3E16D5AB19ACD6AE00149B25 /* GobangTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E16D59219ACD6AE00149B25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E16D59319ACD6AE00149B25 /* Foundation.framework */,
+				3E16D59519ACD6AE00149B25 /* CoreGraphics.framework */,
+				3E16D59719ACD6AE00149B25 /* UIKit.framework */,
+				3E16D5AC19ACD6AE00149B25 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E16D59919ACD6AE00149B25 /* Gobang */ = {
+			isa = PBXGroup;
+			children = (
+				3E16D5A219ACD6AE00149B25 /* AppDelegate.h */,
+				3E16D5A319ACD6AE00149B25 /* AppDelegate.m */,
+				3E16D5C219ACD6EF00149B25 /* VCRoot.h */,
+				3E16D5C319ACD6EF00149B25 /* VCRoot.m */,
+				BC20FB4619AD881100AF5825 /* FiveChessFrameView.h */,
+				BC20FB4719AD881100AF5825 /* FiveChessFrameView.m */,
+				BC20FB4B19ADAAD600AF5825 /* ChessPiece.h */,
+				BC20FB4C19ADAAD600AF5825 /* ChessPiece.m */,
+				3E16D5A519ACD6AE00149B25 /* Images.xcassets */,
+				3E16D59A19ACD6AE00149B25 /* Supporting Files */,
+			);
+			path = Gobang;
+			sourceTree = "<group>";
+		};
+		3E16D59A19ACD6AE00149B25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E16D59B19ACD6AE00149B25 /* Gobang-Info.plist */,
+				3E16D59C19ACD6AE00149B25 /* InfoPlist.strings */,
+				3E16D59F19ACD6AE00149B25 /* main.m */,
+				3E16D5A119ACD6AE00149B25 /* Gobang-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E16D5B219ACD6AE00149B25 /* GobangTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E16D5B819ACD6AE00149B25 /* GobangTests.m */,
+				3E16D5B319ACD6AE00149B25 /* Supporting Files */,
+			);
+			path = GobangTests;
+			sourceTree = "<group>";
+		};
+		3E16D5B319ACD6AE00149B25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E16D5B419ACD6AE00149B25 /* GobangTests-Info.plist */,
+				3E16D5B519ACD6AE00149B25 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E16D58F19ACD6AE00149B25 /* Gobang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E16D5BC19ACD6AE00149B25 /* Build configuration list for PBXNativeTarget "Gobang" */;
+			buildPhases = (
+				3E16D58C19ACD6AE00149B25 /* Sources */,
+				3E16D58D19ACD6AE00149B25 /* Frameworks */,
+				3E16D58E19ACD6AE00149B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gobang;
+			productName = Gobang;
+			productReference = 3E16D59019ACD6AE00149B25 /* Gobang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E16D5AA19ACD6AE00149B25 /* GobangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E16D5BF19ACD6AE00149B25 /* Build configuration list for PBXNativeTarget "GobangTests" */;
+			buildPhases = (
+				3E16D5A719ACD6AE00149B25 /* Sources */,
+				3E16D5A819ACD6AE00149B25 /* Frameworks */,
+				3E16D5A919ACD6AE00149B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E16D5B119ACD6AE00149B25 /* PBXTargetDependency */,
+			);
+			name = GobangTests;
+			productName = GobangTests;
+			productReference = 3E16D5AB19ACD6AE00149B25 /* GobangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E16D58819ACD6AE00149B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = gao;
+				TargetAttributes = {
+					3E16D5AA19ACD6AE00149B25 = {
+						TestTargetID = 3E16D58F19ACD6AE00149B25;
+					};
+				};
+			};
+			buildConfigurationList = 3E16D58B19ACD6AE00149B25 /* Build configuration list for PBXProject "Gobang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E16D58719ACD6AE00149B25;
+			productRefGroup = 3E16D59119ACD6AE00149B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E16D58F19ACD6AE00149B25 /* Gobang */,
+				3E16D5AA19ACD6AE00149B25 /* GobangTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E16D58E19ACD6AE00149B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC20FADC19AD628A00AF5825 /* background.jpg in Resources */,
+				3E16D59E19ACD6AE00149B25 /* InfoPlist.strings in Resources */,
+				3E16D5A619ACD6AE00149B25 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E16D5A919ACD6AE00149B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E16D5B719ACD6AE00149B25 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E16D58C19ACD6AE00149B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E16D5C419ACD6EF00149B25 /* VCRoot.m in Sources */,
+				BC20FB4819AD881100AF5825 /* FiveChessFrameView.m in Sources */,
+				BC20FB4D19ADAAD600AF5825 /* ChessPiece.m in Sources */,
+				3E16D5A419ACD6AE00149B25 /* AppDelegate.m in Sources */,
+				3E16D5A019ACD6AE00149B25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E16D5A719ACD6AE00149B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E16D5B919ACD6AE00149B25 /* GobangTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E16D5B119ACD6AE00149B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E16D58F19ACD6AE00149B25 /* Gobang */;
+			targetProxy = 3E16D5B019ACD6AE00149B25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E16D59C19ACD6AE00149B25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E16D59D19ACD6AE00149B25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E16D5B519ACD6AE00149B25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E16D5B619ACD6AE00149B25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E16D5BA19ACD6AE00149B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E16D5BB19ACD6AE00149B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E16D5BD19ACD6AE00149B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gobang/Gobang-Prefix.pch";
+				INFOPLIST_FILE = "Gobang/Gobang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E16D5BE19ACD6AE00149B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gobang/Gobang-Prefix.pch";
+				INFOPLIST_FILE = "Gobang/Gobang-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3E16D5C019ACD6AE00149B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gobang.app/Gobang";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gobang/Gobang-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GobangTests/GobangTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3E16D5C119ACD6AE00149B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gobang.app/Gobang";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gobang/Gobang-Prefix.pch";
+				INFOPLIST_FILE = "GobangTests/GobangTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E16D58B19ACD6AE00149B25 /* Build configuration list for PBXProject "Gobang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E16D5BA19ACD6AE00149B25 /* Debug */,
+				3E16D5BB19ACD6AE00149B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E16D5BC19ACD6AE00149B25 /* Build configuration list for PBXNativeTarget "Gobang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E16D5BD19ACD6AE00149B25 /* Debug */,
+				3E16D5BE19ACD6AE00149B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E16D5BF19ACD6AE00149B25 /* Build configuration list for PBXNativeTarget "GobangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E16D5C019ACD6AE00149B25 /* Debug */,
+				3E16D5C119ACD6AE00149B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E16D58819ACD6AE00149B25 /* Project object */;
+}
